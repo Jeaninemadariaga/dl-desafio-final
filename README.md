@@ -1,2 +1,4 @@
-# dl-desafio-final
-Desafío Final de Desafío Latam
+# Desafío final de Desafío Latam
+
+Autora: Jeanine Madariaga Barra
+

@@ -1,0 +1,93 @@
+body {
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+nav {
+    background-color: #1572A1;
+}
+
+#Hero-Section {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/Woman\ photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+/*
+.carousel-item{
+    height: 800px;
+}
+*/
+
+.btn-primary {
+    background-color: #1572A1;
+}
+
+.skills-curses {
+    display: flex;
+    align-items: center;
+    padding: 3em 0px;
+    background-color: #9AD0EC;
+}
+
+.skills-curses p {
+    font-size: 1.5625em;
+    font-weight: 300;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.skills-curses-titles {
+    padding: 0 3.125em;
+    width: 50%;
+}
+
+.skills-curses-titles h2 {
+    font-size: 2.5em;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 12.6875em;
+}
+
+.curse {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item img{
+    height: 35em !important;
+    object-fit: cover;
+    object-position: top;
+    filter: brightness(70%)
+}
+
+.carousel-item p{
+    font-weight: 500;
+}
+
+footer {
+    background-color: #9AD0EC;
+}
+
+footer p {
+    color: #1572A1;
+    font-weight: 400;
+}

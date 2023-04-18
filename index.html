@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ad20c0cfb5.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Jeanine "Nine" Madariaga</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Acerca-de-mi">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Portafolio">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="Hero-Section" class="text-dark text-left py-5">
+        <div class="container py-5">
+            <div class="col-12 col-md-7 py-5 mt-5">
+                <h2 class="display-4 fw-bold my-5">
+                    Un trabajo <br> a tu medida
+                </h2>
+                <p class="my-5">
+                    Jeanine Madariaga Contadora Pública y Auditora de formación, apasionada por el diseño y el arte.
+                    Cuenta con más de 2 años de experiencia trabajando en el diseño y pintado de zapatillas además de
+                    tener un amplio conocimiento en amteriales, texturas y cuidado de calzado.
+                </p>
+                <!--
+                <div class="mb-5 pb-5">
+                    <button class="btn btn-lg btn-outline-info text-light me-4">Trabajos</button>
+                    <button class="btn btn-lg btn-info text-light">Contacto</button>
+                </div>
+            -->
+            </div>
+        </div>
+    </header>
+
+    <!--Acerca de mi-->
+    <section id="Acerca-de-mi" class="container text-center my-5 pt-5">
+        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
+        <p class="my-4">
+            A continuación dejo algunas de las características principales de mis trabajos asi como de mis diseños:
+        </p>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-calculator fa-3x my-3"></i>
+                <h4 class="my-3 fw-bold">Contadora Pública y Auditora de Formación</h4>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-file-lines fa-3x my-3"></i>
+                <h4 class="my-3 fw-bold">Trabajando como Business Analyst</h4>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-laptop fa-3x my-3"></i>
+                <h4 class="my-3 fw-bold">Programadora por hobbie</h4>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills y cursos-->
+    <section class="skills-curses">
+        <div class="skills-curses-titles">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <i class="fa-brands fa-python fa-2x"></i>
+                    <p>Python</p>
+                </div>
+                <div class="skill">
+                    <i class="fa-solid fa-code fa-2x"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-css3 fa-2x"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-bootstrap fa-2x"></i>
+                    <p>Boostrap</p>
+                </div>
+            </div>
+        </div>
+        <div class="skills-curses-titles">
+            <h2>Cursos</h2>
+            <div class="curses-list">
+                <div class="curse">
+                    <i class="fa-solid fa-graduation-cap fa-1x"></i>
+                    <p>Lógica de programación</p>
+                </div>
+                <div class="curse">
+                    <i class="fa-solid fa-graduation-cap fa-1x"></i>
+                    <p>Python Básico</p>
+                </div>
+                <div class="curse">
+                    <i class="fa-solid fa-graduation-cap fa-1x"></i>
+                    <p>Python Medio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Carrusel -->
+    <div id="Portafolio" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#Portafolio" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#Portafolio" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#Portafolio" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#Portafolio" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/Desafío2.png" class="d-block w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Desafío 2</h2>
+                    <p>CSS: Construyendo un landing page</p>
+                    <a class="btn btn-light" role="button" href="repository/desafio-2/index.html">Ver desafío</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/Desafío3.png" class="d-block w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Desafío 3</h2>
+                    <p>Posicionamiento: Iguana page</p>
+                    <a class="btn btn-light" role="button" href="repository/desafio-3/index.html">Ver desafío</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/Desafío4.png" class="d-block w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Desafío 4</h2>
+                    <p>Boostrap: Cuppon</p>
+                    <a class="btn btn-light" role="button" href="repository/desafio-4/index.html">Ver desafío</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/Desafío5.png" class="d-block w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Desafío 5</h2>
+                    <p>Github: Terminal, Git y Github</p>
+                    <a class="btn btn-light" role="button" href="repository/desafio-5/index.html">Ver desafío</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- No se que es esto, al parecer se puede borrar
+      <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Solicitud de contacto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating mt-3 mb-3">
+                        <input type="text" class="form-control" id="floatingTextarea"
+                            placeholder="Leave a comment here">
+                        <label for="floatingTextarea">Nombre</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Correo electrónico</label>
+                    </div>
+                    <div class="form-floating mt-3 mb-3">
+                        <input type="text" class="form-control" id="floatingTextarea"
+                            placeholder="Leave a comment here">
+                        <label for="floatingTextarea">Escribe tu mensaje aquí</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<footer class="text-center text-light p-4">
+    <p class="mb-0">Jeanine Madariaga 2023. Todos los derechos reservados.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</html>
