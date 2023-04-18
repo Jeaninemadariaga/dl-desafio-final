@@ -72,14 +72,14 @@ nav {
     justify-content: center;
 }
 
-.carousel-item img{
+.carousel-item img {
     height: 35em !important;
     object-fit: cover;
     object-position: top;
     filter: brightness(70%)
 }
 
-.carousel-item p{
+.carousel-item p {
     font-weight: 500;
 }
 
